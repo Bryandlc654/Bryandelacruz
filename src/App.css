@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> develop
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
 
 :root {
   --header-height: 3rem;
@@ -180,7 +175,6 @@ img {
 
   .section__subtitle {
     margin-bottom: var(--mb-3);
-<<<<<<< HEAD
   }
 }
 
@@ -195,8 +189,6 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
-=======
->>>>>>> develop
   }
 }
 
