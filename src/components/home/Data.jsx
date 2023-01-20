@@ -59,7 +59,7 @@ const Data = () => {
         Diseñador y Desarrollador Web Front - End
       </h3>
       <p className="home__description">
-        Apasionado por el autoaprendizaje y el buen diseño de mis proyectos.
+        Apasionado por el autoaprendizaje y el buen diseño de los proyectos que realizo.
       </p>
       <a href="#contact" className="button button--flex">
         Escríbeme
