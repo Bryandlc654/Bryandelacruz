@@ -55,13 +55,10 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">
-        Diseñador y Desarrollador Web Front - End
-      </h3>
+      <h3 className="home__subtitle">Diseñador y Desarrollador Web Frontend</h3>
       <p className="home__description">
-
-        Apasionado por el autoaprendizaje y el buen diseño de los proyectos que realizo.
-
+        Soy un apasionado del autoaprendizaje y el diseño impecable en todos los
+        proyectos que llevo a cabo.
       </p>
       <a href="#contact" className="button button--flex">
         Escríbeme
