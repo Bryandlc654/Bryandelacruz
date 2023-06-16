@@ -7,14 +7,23 @@ const Social = () => {
       <a
         href="https://www.instagram.com/bryan_dlc99/"
         className="home__social-icon"
+        title="Instagram"
       >
-        <i className="uil uil-instagram"></i>
+        <i className="uil uil-instagram" aria-label="Instagram"></i>
       </a>
-      <a href="https://github.com/Bryandlc654" className="home__social-icon">
-        <i className="uil uil-github-alt"></i>
+      <a
+        href="https://github.com/Bryandlc654"
+        className="home__social-icon"
+        title="GitHub"
+      >
+        <i className="uil uil-github-alt" aria-label="GitHub"></i>
       </a>
-      <a href="https://wa.link/953urh" className="home__social-icon">
-        <i className="uil uil-whatsapp"></i>
+      <a
+        href="https://wa.link/953urh"
+        className="home__social-icon"
+        title="WhatsApp"
+      >
+        <i className="uil uil-whatsapp" aria-label="WhatsApp"></i>
       </a>
     </div>
   );

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./services.css";
 
-
 const Services = () => {
   const [toogleState, setToogleState] = useState(0);
 
@@ -11,15 +10,18 @@ const Services = () => {
   return (
     <section className="services section" id="services">
       <h2 className="section__title">Servicios</h2>
-      <span className="section__subtitle">Lo que ofrezco</span>
+      <span className="section__subtitle">
+        Soluciones personalizadas para potenciar tu éxito
+      </span>
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-arrow services__icon"></i>
+
             <h3 className="services__title">
-              Diseñador <br />
-              de Producto
+              Productos <br />
+              Digitales
             </h3>
           </div>
           <span className="services__button" onClick={() => toogleTab(1)}>
@@ -38,34 +40,42 @@ const Services = () => {
                 onClick={() => toogleTab(0)}
                 className="ul uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Diseñador de Producto</h3>
+              <h3 className="services__modal-title">Productos Digitales</h3>
               <p className="services__modal-description">
-                Servicio con mas de 1 año de experiencia. Brindando un trabajo
-                de calidad a clientes y empresas.
+                Diseñadas para satisfacer tus necesidades empresariales con
+                creatividad y eficacia.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño y desarrollo de interfaces de usuario.
+                    Sitios web responsivos.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño y desarrollo de páginas web.
+                    Sitios web corporativos.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Diseño de flyers y anuncios publicitarios.
-                  </p>
+                  <p className="services__modal-info">Landing Pages.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño de letreros publicitarios.
+                    Blogs y publicaciones en línea.
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Portafolios en línea.</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Aplicaciones móviles web.
                   </p>
                 </li>
               </ul>
@@ -75,9 +85,9 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
+            <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Diseñador <br /> Ui / Ux
+              Productos <br /> CMS
             </h3>
           </div>
           <span className="services__button" onClick={() => toogleTab(2)}>
@@ -96,35 +106,29 @@ const Services = () => {
                 onClick={() => toogleTab(0)}
                 className="ul uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Diseñador Ui / Ux</h3>
+              <h3 className="services__modal-title">Productos CMS</h3>
               <p className="services__modal-description">
-                servicio con mas de 1 añoa de experiencia. Brindando un trabajo
-                de calidad a clientes y empresas.
+                Impulsa tu presencia en línea con nuestros productos CMS.
+                Potentes. Personalizados. Éxito asegurado.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Diseño y desarrollo de interfaces de usuario.
-                  </p>
+                  <p className="services__modal-info">Ecommerce.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño y desarrollo de páginas web.
+                    Sitios web responsivos.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Diseño de flyers y anuncios publicitarios.
-                  </p>
+                  <p className="services__modal-info">Landing Page.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Diseño de letreros publicitarios.
-                  </p>
+                  <p className="services__modal-info">Aula virtual.</p>
                 </li>
               </ul>
             </div>
@@ -158,32 +162,32 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">Diseñador Visual</h3>
               <p className="services__modal-description">
-                servicio con mas de 1 añoa de experiencia. Brindando un trabajo
-                de calidad a clientes y empresas.
+                Trabajaré contigo para crear diseños que reflejen tu marca y se
+                ajusten a tus necesidades comerciales únicas.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño y desarrollo de interfaces de usuario.
+                    Diseño de Banners Publicitarios.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño y desarrollo de páginas web.
+                    Diseño de Flyers para redes sociales
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño de flyers y anuncios publicitarios.
+                    Diseño de Logos corporativos.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diseño de letreros publicitarios.
+                    Diseño de Piezas gráficas para sitio web.
                   </p>
                 </li>
               </ul>
