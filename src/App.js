@@ -8,6 +8,7 @@ import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualification from "./components/qualificaion/Qualification";
 import Testimonials from "./components/testimonials/Testimonials";
+import Contact from "./components/contact/Contact";
 import { useEffect } from "react";
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
-        <Testimonials/>
+        <Testimonials />
+        <Contact />
       </main>
     </>
   );

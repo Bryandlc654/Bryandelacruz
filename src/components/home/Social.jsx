@@ -5,11 +5,11 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/bryan_dlc99/"
+        href="https://www.linkedin.com/in/bryandelacruzsoto/"
         className="home__social-icon"
         title="Instagram"
       >
-        <i className="uil uil-instagram" aria-label="Instagram"></i>
+        <i className="uil uil-linkedin" aria-label="Linkedin"></i>
       </a>
       <a
         href="https://github.com/Bryandlc654"
