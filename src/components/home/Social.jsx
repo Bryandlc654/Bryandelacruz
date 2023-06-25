@@ -7,7 +7,9 @@ const Social = () => {
       <a
         href="https://www.linkedin.com/in/bryandelacruzsoto/"
         className="home__social-icon"
-        title="Instagram"
+        title="Linkedin"
+        target="_blank"
+        rel="noreferrer"
       >
         <i className="uil uil-linkedin" aria-label="Linkedin"></i>
       </a>
@@ -15,6 +17,8 @@ const Social = () => {
         href="https://github.com/Bryandlc654"
         className="home__social-icon"
         title="GitHub"
+        target="_blank"
+        rel="noreferrer"
       >
         <i className="uil uil-github-alt" aria-label="GitHub"></i>
       </a>
@@ -22,6 +26,8 @@ const Social = () => {
         href="https://wa.link/953urh"
         className="home__social-icon"
         title="WhatsApp"
+        target="_blank"
+        rel="noreferrer"
       >
         <i className="uil uil-whatsapp" aria-label="WhatsApp"></i>
       </a>
