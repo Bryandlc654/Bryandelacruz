@@ -49,11 +49,13 @@
 }
 
 .list__buttons {
+  padding: 0 1rem;
   width: 100%;
-  display: flex;
+  display: grid;
   justify-content: center;
-  margin: 0 0 2rem;
   gap: 10px;
+  grid-template-columns: repeat(4, 120px);
+  margin: 0 0 2rem;
 }
 
 .list__buttons button {
@@ -77,12 +79,24 @@
 }
 
 @media screen and (max-width: 992px) {
-  .testimonial__container {
+  .portfolio__container {
     width: initial;
   }
 
-  .testimonial__card {
+  .portfolio__card {
     padding: 1.25rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    grid-template-columns: repeat(1, 100%);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .list__buttons {
+    grid-template-columns: repeat(2, 120px);
   }
 }
 

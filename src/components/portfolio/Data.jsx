@@ -1,16 +1,16 @@
-import Image1 from "../../assets/webkano.jpg";
-import Image2 from "../../assets/tlamachtilo.png";
-import Image3 from "../../assets/artemuebles.jpg";
-import Image4 from "../../assets/traveleros.png";
-import Image5 from "../../assets/ceca.png";
-import Image6 from "../../assets/aulavirtual.png";
-import Image7 from "../../assets/peruvian.png";
-import Image8 from "../../assets/premium.jpg";
-import Image9 from "../../assets/educaid.png";
-import Image10 from "../../assets/nextboost.jpg";
-import Image11 from "../../assets/JJSANMARCOS.jpg";
-import Image12 from "../../assets/FLYER.jpg";
-import Image13 from "../../assets/flyerceca.jpg";
+import Image1 from "../../assets/webkano.webp";
+import Image2 from "../../assets/tlamachtilo.webp";
+import Image3 from "../../assets/artemuebles.webp";
+import Image4 from "../../assets/traveleros.webp";
+import Image5 from "../../assets/ceca.webp";
+import Image6 from "../../assets/aulavirtual.webp";
+import Image7 from "../../assets/peruvian.webp";
+import Image8 from "../../assets/premium.webp";
+import Image9 from "../../assets/educaid.webp";
+import Image10 from "../../assets/nextboost.webp";
+import Image11 from "../../assets/JJSANMARCOS.webp";
+import Image12 from "../../assets/FLYER.webp";
+import Image13 from "../../assets/flyerceca.webp";
 
 export const Data = [
   {

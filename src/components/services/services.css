@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 992px) {
   .services__container {
-    grid-template-columns: repeat(3, 128px);
+    grid-template-columns: repeat(3, 250px);
   }
 }
 
@@ -135,6 +135,6 @@
     grid-template-columns: max-content;
   }
   .services__content {
-  padding-right: 6rem ;
+    padding-right: 6rem;
   }
 }

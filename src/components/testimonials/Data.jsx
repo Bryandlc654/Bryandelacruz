@@ -1,4 +1,4 @@
-import Image from "../../assets/user.png";
+import Image from "../../assets/user.webp";
 
 export const Data = [
   {

@@ -3,13 +3,25 @@ import emailjs from "emailjs-com";
 import toast, { Toaster } from "react-hot-toast";
 import "./contact.css";
 
-const notify = () => toast.success("Enviado correctamente");
+const notifySuccess = () => toast.success("Enviado correctamente");
+const notifyError = () => toast.error("Por favor, completa todos los campos");
 
 function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const { name, email, project } = e.target.elements;
+
+    if (
+      name.value.trim() === "" ||
+      email.value.trim() === "" ||
+      project.value.trim() === ""
+    ) {
+      notifyError();
+      return;
+    }
 
     emailjs.sendForm(
       "service_6s092gp",
@@ -18,7 +30,9 @@ function Contact() {
       "5yFtPX9IA9lpT3Vmo"
     );
     e.target.reset();
+    notifySuccess();
   };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Contáctame</h2>
@@ -106,7 +120,7 @@ function Contact() {
               ></textarea>
             </div>
             <button
-              onClick={notify}
+              
               className="button button--flex"
               title="Escríbeme"
             >
