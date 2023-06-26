@@ -11,7 +11,7 @@ const Info = () => {
       <div className="about__box">
         <i className="bx bx-briefcase-alt about__icon" aria-hidden="true"></i>
         <h3 className="about__title">Proyectos</h3>
-        <span className="about__subtitle">Más de 5 proyectos completados</span>
+        <span className="about__subtitle">Más de 8 proyectos completados</span>
       </div>
       <div className="about__box">
         <i className="bx bx-support about__icon" aria-hidden="true"></i>

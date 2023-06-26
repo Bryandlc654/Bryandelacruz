@@ -47,7 +47,7 @@ const Diseño = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check" aria-hidden="true"></i>
             <div>
-              <h3 className="skills_name">Moodle</h3>
+              <h3 className="skills_name">Elementor</h3>
               <span className="skills__level">Nivel Intermedio</span>
             </div>
           </div>
