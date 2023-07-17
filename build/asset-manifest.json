@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e49f69fe.css",
+    "main.js": "/static/js/main.0ae24180.js",
+    "static/js/787.79e1a77e.chunk.js": "/static/js/787.79e1a77e.chunk.js",
+    "static/media/CVBRYANDELACRUZ.pdf": "/static/media/CVBRYANDELACRUZ.093764a148e88ddf2848.pdf",
+    "static/media/profile.webp": "/static/media/profile.5f9629b66591c6ce3dfd.webp",
+    "static/media/FLYER.webp": "/static/media/FLYER.0fd8bb6dd17f6e9770fe.webp",
+    "static/media/traveleros.webp": "/static/media/traveleros.95fcd4023e7340463665.webp",
+    "static/media/flyerceca.webp": "/static/media/flyerceca.5f7cda5fd374070fc95f.webp",
+    "static/media/aulavirtual.webp": "/static/media/aulavirtual.5765498044130506f644.webp",
+    "static/media/webkano.webp": "/static/media/webkano.48c1e7756fcdc99c9426.webp",
+    "static/media/peruvian.webp": "/static/media/peruvian.e9a1c9fb0f9fae0f3437.webp",
+    "static/media/ceca.webp": "/static/media/ceca.a84b6a0ac3c3acef541e.webp",
+    "static/media/premium.webp": "/static/media/premium.0ad04d4fe723d23eefce.webp",
+    "static/media/educaid.webp": "/static/media/educaid.46441ae1355869f5e4d3.webp",
+    "static/media/artemuebles.webp": "/static/media/artemuebles.792276654afa7b55134c.webp",
+    "static/media/JJSANMARCOS.webp": "/static/media/JJSANMARCOS.4bba0540e47f2003cf4f.webp",
+    "static/media/tlamachtilo.webp": "/static/media/tlamachtilo.5df1a0558daca9fe350f.webp",
+    "static/media/nextboost.webp": "/static/media/nextboost.5c88aea3ff8453c16ac3.webp",
+    "static/media/user.webp": "/static/media/user.f1e7fd1385e135c8eae8.webp",
+    "index.html": "/index.html",
+    "main.e49f69fe.css.map": "/static/css/main.e49f69fe.css.map",
+    "main.0ae24180.js.map": "/static/js/main.0ae24180.js.map",
+    "787.79e1a77e.chunk.js.map": "/static/js/787.79e1a77e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e49f69fe.css",
+    "static/js/main.0ae24180.js"
+  ]
+}
