@@ -12,7 +12,7 @@ const About = () => {
         Descubre quién soy y cómo puedo ayudarte
       </span>
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src={AboutImg} alt="Bryan de la Cruz" className="about__img" />
         <div className="about__data">
           <Info />
           <p className="about__description">
@@ -21,7 +21,7 @@ const About = () => {
             los proyectos que llevo a cabo.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={CV} className="button button--flex" title="Descargar CV">
             Descargar CV
             <svg
               class="button__icon"

@@ -51,6 +51,7 @@ function Contact() {
                 className="contact__button"
                 target="_blank"
                 rel="noreferrer"
+                title="Enviar Email"
               >
                 Click aquí
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -66,6 +67,7 @@ function Contact() {
                 className="contact__button"
                 target="_blank"
                 rel="noreferrer"
+                title="Enviar Whatsapp"
               >
                 Click aquí
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -80,6 +82,7 @@ function Contact() {
                 className="contact__button"
                 target="_blank"
                 rel="noreferrer"
+                title="Enviar messenger"
               >
                 Click aquí
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>

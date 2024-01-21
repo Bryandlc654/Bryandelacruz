@@ -52,7 +52,7 @@ function Qualification() {
                   Diseño y Programación Web
                 </h3>
                 <span className="qualification__subtitle">
-                  ISTP Tecnosur Chincha - III Ciclo
+                  ISTP Tecnosur Chincha - IV Ciclo
                 </span>
                 <div className="qualification__calender">
                   <i className="uil-calendar-alt"></i> Abril 2022 - Actualidad
@@ -85,7 +85,7 @@ function Qualification() {
                 <h3 className="qualification__title">
                   Ingeniería de Sistemas Computacionales
                 </h3>
-                <span className="qualification__subtitle">Utel - I Ciclo</span>
+                <span className="qualification__subtitle">Utel - II Ciclo</span>
                 <div className="qualification__calender">
                   <i className="uil-calendar-alt"></i> Marzo 2023 - Actualidad
                 </div>
@@ -93,21 +93,6 @@ function Qualification() {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Escuela Desarrollo Web</h3>
-                <span className="qualification__subtitle">Platzi</span>
-                <div className="qualification__calender">
-                  <i className="uil-calendar-alt"></i>Junio 2023 - Actualidad
-                </div>
               </div>
             </div>
           </div>
@@ -159,12 +144,26 @@ function Qualification() {
                 </span>
                 <div className="qualification__calender">
                   <i className="uil-calendar-alt"></i> Noviembre 2022 -
-                  Actualidad
+                  Noviembre 2023
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Desarrollo Web</h3>
+                <span className="qualification__subtitle">Next Boost</span>
+                <div className="qualification__calender">
+                  <i className="uil-calendar-alt"></i> Diciembre 2023 - Actualidad
+                </div>
               </div>
             </div>
           </div>
