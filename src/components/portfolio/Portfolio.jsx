@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./portfolio.css";
 import { Data } from "./Data";
 
+const initialCategory = "web";
 const Portfolio = () => {
-  const [activeCategory, setActiveCategory] = useState("Todos");
+  const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
 
@@ -18,7 +19,12 @@ const Portfolio = () => {
       <span className="section__subtitle">Mis trabajos recientes</span>
       <div className="list__buttons">
         <button onClick={() => setActiveCategory("Todos")}>Todos</button>
-        <button onClick={() => setActiveCategory("web")}>Web</button>
+        <button
+          onClick={() => setActiveCategory("web")}
+          className={activeCategory === "web" ? "active" : ""}
+        >
+          Web
+        </button>
         <button onClick={() => setActiveCategory("cms")}>CMS</button>
         <button onClick={() => setActiveCategory("diseño")}>Diseño</button>
       </div>

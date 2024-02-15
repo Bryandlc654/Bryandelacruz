@@ -16,9 +16,13 @@ import Image16 from "../../assets/portada.webp";
 import Image17 from "../../assets/361853616_184930641236886_6859752598142623542_n.webp";
 import Image18 from "../../assets/cienciasagrarias.webp";
 import Image19 from "../../assets/platinum-24.webp";
-import Image20 from "../../assets/PRIUSFONDO.jpg";
+import Image20 from "../../assets/PRIUSFONDO.webp";
 import Image22 from "../../assets/home-artesis.webp";
-import Image23 from "../../assets/alerta.png";
+import Image23 from "../../assets/alerta.webp";
+import Image24 from "../../assets/posts.webp";
+import Image25 from "../../assets/382.webp";
+import Image26 from "../../assets/comunicadosypost.webp";
+import Image27 from "../../assets/facebookportada.webp";
 
 export const Data = [
   {
@@ -93,7 +97,7 @@ export const Data = [
     enlace: "https://campusvirtual.cecajjsm.com/",
     description: "MOODLE",
   },
-  
+
   {
     id: 9,
     categoria: "cms",
@@ -197,5 +201,37 @@ export const Data = [
     title: "Logo Revista PRIUS",
     enlace: "#",
     description: "LOGO",
+  },
+  {
+    id: 24,
+    categoria: "diseño",
+    image: Image24,
+    title: "Post SIL",
+    enlace: "#",
+    description: "Anuncios",
+  },
+  {
+    id: 25,
+    categoria: "diseño",
+    image: Image25,
+    title: "Post SIL",
+    enlace: "#",
+    description: "Anuncios",
+  },
+  {
+    id: 26,
+    categoria: "diseño",
+    image: Image26,
+    title: "Post SIL",
+    enlace: "#",
+    description: "Anuncios",
+  },
+  {
+    id: 27,
+    categoria: "diseño",
+    image: Image27,
+    title: "Portada SIL",
+    enlace: "#",
+    description: "Portada Facebook",
   },
 ];

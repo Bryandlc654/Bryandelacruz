@@ -134,3 +134,8 @@
   max-width: 80%;
   max-height: 80%;
 }
+
+.list__buttons button.active {
+  background-color: var(--title-color);
+  color: #fff;
+}

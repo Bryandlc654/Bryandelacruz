@@ -53,7 +53,7 @@ function Contact() {
                 rel="noreferrer"
                 title="Enviar Email"
               >
-                Click aquí
+                Escribir un correo
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -67,12 +67,13 @@ function Contact() {
                 className="contact__button"
                 target="_blank"
                 rel="noreferrer"
-                title="Enviar Whatsapp"
+                title="Enviar mensaje por Whatsapp a Bryan de la Cruz"
               >
-                Click aquí
+                Contactar por Whatsapp
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
+
             <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">Messenger</h3>
@@ -82,9 +83,9 @@ function Contact() {
                 className="contact__button"
                 target="_blank"
                 rel="noreferrer"
-                title="Enviar messenger"
+                title="Enviar mensaje por Messenger a Bryan de la Cruz"
               >
-                Click aquí
+                Contactar por Messenger
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -123,7 +124,7 @@ function Contact() {
               ></textarea>
             </div>
             <button
-              
+
               className="button button--flex"
               title="Escríbeme"
             >

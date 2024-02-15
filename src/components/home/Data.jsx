@@ -1,15 +1,16 @@
 import React from "react";
 
 const Data = () => {
+  
   return (
     <div className="home__data">
-      <h1 className="home__title">Bryan De La Cruz 👋🏻</h1>
-      <h2 className="home__subtitle">Diseñador y Desarrollador Web Frontend</h2>
-      <p className="home__description">
+      <h2 className="home__title skeleton">Bryan De La Cruz 👋🏻</h2>
+      <h1 className="home__subtitle skeleton">Diseñador y Desarrollador Web Frontend</h1>
+      <p className="home__description skeleton">
         Soy un apasionado del autoaprendizaje y el diseño impecable en todos los
         proyectos que llevo a cabo.
       </p>
-      <a href="#contact" className="button button--flex" title="Escríbeme">
+      <a href="#contact" className="button button--flex skeleton" title="Escríbeme">
         Escríbeme
         <svg
           className="button__icon"

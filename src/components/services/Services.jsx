@@ -20,8 +20,8 @@ const Services = () => {
             <i className="uil uil-arrow services__icon"></i>
 
             <h3 className="services__title">
-              Productos <br />
-              Digitales
+              Desarrollo Web <br />
+              Con React.js
             </h3>
           </div>
           <span className="services__button" onClick={() => toogleTab(1)}>
@@ -40,7 +40,8 @@ const Services = () => {
                 onClick={() => toogleTab(0)}
                 className="ul uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Productos Digitales</h3>
+              <h3 className="services__modal-title"> Desarrollo Web
+                Con React.js</h3>
               <p className="services__modal-description">
                 Diseñadas para satisfacer tus necesidades empresariales con
                 creatividad y eficacia.
@@ -87,7 +88,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Productos <br /> CMS
+              Desarrollo Web  <br /> con Wordpress
             </h3>
           </div>
           <span className="services__button" onClick={() => toogleTab(2)}>
@@ -106,7 +107,7 @@ const Services = () => {
                 onClick={() => toogleTab(0)}
                 className="ul uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Productos CMS</h3>
+              <h3 className="services__modal-title">Desarrollo Web con Wordpress</h3>
               <p className="services__modal-description">
                 Impulsa tu presencia en línea con nuestros productos CMS.
                 Potentes. Personalizados. Éxito asegurado.
@@ -139,9 +140,9 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Diseñador
+              Diseño
               <br />
-              Visual
+              Publicitario
             </h3>
           </div>
           <span className="services__button" onClick={() => toogleTab(3)}>
@@ -160,7 +161,7 @@ const Services = () => {
                 onClick={() => toogleTab(0)}
                 className="ul uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Diseñador Visual</h3>
+              <h3 className="services__modal-title">Diseño Publicitario</h3>
               <p className="services__modal-description">
                 Trabajaré contigo para crear diseños que reflejen tu marca y se
                 ajusten a tus necesidades comerciales únicas.

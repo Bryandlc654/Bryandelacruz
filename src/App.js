@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import smoothscroll from "smoothscroll-polyfill";
 import Header from "./components/header/Headers";
 import Home from "./components/home/Home";
@@ -29,7 +28,7 @@ function App() {
         <Services />
         <Qualification />
         <Portfolio />
-   <Testimonials /> 
+        <Testimonials />
         <Contact />
       </main>
       <Footer />
